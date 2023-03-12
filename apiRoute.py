@@ -23,7 +23,7 @@ class Apiservice():
     def __init__(self):
     
       print('Inside __init__')
-      self.conn = psycopg2.connect(user="postgres",password="Newlife#wait",host="project1-rds.chx1nq1qr6w0.us-east-2.rds.amazonaws.com",port=5432,dbname="project1-rds")
+      self.conn = psycopg2.connect(user="postgres",password="Newlife#wait",host="database-12-mar.chx1nq1qr6w0.us-east-2.rds.amazonaws.com",port=5432,dbname="database-12-mar")
       
       
     def getConnection (self):
